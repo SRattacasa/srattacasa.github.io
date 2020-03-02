@@ -1,0 +1,439 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+* { 
+	box-sizing: border-box;
+	
+}
+
+.navigate { 
+	max-width: 876px;
+	margin: 0 auto;
+	list-style-type: none;
+	text-align: center;
+}
+
+.navigate ul { 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 3%;
+}
+
+.navigate img {
+	display: flex;
+	margin-left: 3px;
+}
+
+
+header { 
+	display: flex;
+	max-width: 876px;
+	margin: 40px auto;
+	text-align: justify;
+}
+
+header .tophead1 { 
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 10%;
+	text-align: center;
+	
+}
+
+header .tophead2 { 
+	width: 40%;
+	display: flex;
+}
+
+
+header p { 
+	display: flex;
+	justify-content: center;
+	border: solid black 1px;
+	font-size: 20px;
+	width: 150px;
+	/* padding: 5px; */
+	text-align: center;
+	align-items: center;
+	height: 50px;
+}
+
+h1 { 
+	font-size: 60px;
+	margin-right: 70%;
+}
+
+
+.botsect { 
+	border-top: solid 2px black;
+	max-width: 876px;
+	margin: 0 auto;
+}
+
+.s1 { 
+	margin: 20px 0 20px 0;
+	display: flex;
+	
+}
+
+.justdoit { 
+	display: flex;
+}
+
+div .s1 { 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.s1 p { 
+	display: flex;
+	
+}
+
+.s1 h2 { 
+	display: flex;
+	flex-direction: row;
+	flex-grow: unset;
+}
+
+.s1 div { 
+	display: flex;
+	
+	flex-direction: column;
+	justify-content: space-evenly;
+	/* width: 49%; */
+	
+}
+
+.middle-img { 
+	margin: 10px auto;
+}
+
+.s2 { 
+	border-bottom: solid 1px black;
+	display: flex;
+}
+
+.s2 div { 
+	
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 33%;
+	margin: 20px 0;
+}
+
+.bottom {
+	
+	max-width: 876px;
+	margin: 20px auto;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.toptext { 
+	
+	display: flex;
+	max-width: 876px;
+	margin: 40px auto;
+}
+
+.skills { 
+	max-width: 876px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;	
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-top: solid black 2px;
+}
+
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+  }
+  
+  .column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	justify-content: space-evenly;	
+	width: 50%;	
+  }
+  
+ .box1 { 
+	 border: solid black 1px;
+	 padding: 20px;
+	 margin: 15px;
+	 
+ }
+
+ .box2 { 
+	border: solid black 1px;
+	padding: 20px;
+	margin: 15px;
+}
+
+.skills p { 
+	display: flex;
+	border: solid black 1px;
+	padding: 10px;
+	margin-top: 10px;
+	width: 150px;
+	justify-content: center;
+	font-size: 11px;
+	border-radius: 5px;
+}
+
+.botsvcs { 
+	max-width: 876px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	border-top: solid black 2px;
+	padding-top: 50px;
+	justify-items: flex-start;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	margin-bottom: 40px;
+}
+
+
+.botsvcs ul { 
+ list-style-type: square;
+ padding-left: 15px;
+ margin-top: 20px;
+ width: fit-content;
+}
+
+.botsvcs li { 
+	padding: 8px;
+}
+
+.botsvcs .img { 
+	display: flex;
+}
+
+.lul {
+	width: fit-content;
+}	
+
+.h1lol {
+	max-width: 876px;
+	margin: 0 auto;
+	font-size: 40px;
+}
+
+.botwithimg { 
+	width: 50%;
+}
+
+.botimgfile { 
+	margin-left: 10px;
+}
+
+
+@media (max-width: 768px) { 
+	
+	.logoli { 
+		width: 100%;
+		margin: 0 auto;
+	}
+		
+	  .navigate ul {
+		  flex-wrap: wrap;
+		  color:grey;
+	  }
+	.navigate img { 
+		display: flex;
+		margin: 0 auto;
+		padding: 3%;
+	}
+	header .tophead2 { 
+		width: 0px;
+		display: none;
+	}
+	header { 
+		display: flex;
+		flex-wrap: wrap;
+	}
+	header .tophead1 { 
+		width: 100%;
+		margin-left: 0;
+	}
+
+	header h1 { 
+		margin-right: 0;
+		width: 100%;
+	}
+	.tophead1  {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+	.navigate ul li:last-child { 
+		order: -1;
+		
+	}
+}
+
+
+@media (max-width: 480px) { 
+	.nav {
+		display: flex;
+		flex-direction: column;
+	  }
+	  
+	  .nav a {
+		margin: 20px 0px;
+		font-size: 26px;
+	  }	  
+
+	  .navigate ul { 
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin: 3%;
+	}
+
+	.navigate ul li:last-child { 
+		order: -1
+	}
+
+	.navigate img { 
+		display: flex;
+		align-items: flex-start;	
+		margin: 0 auto;
+	}
+
+	.navigate li { 
+		width: 100%;
+		color: grey;
+		font-size: 20px;
+		padding: 3%;
+		border-bottom: grey solid 1px;
+	}
+
+	.tophead2 { 
+		width: 0px;
+	}
+	.tophead2 img {
+		display:none;
+	}
+
+	header { 
+		display: flex;
+		flex-wrap: wrap;
+	}
+	header .tophead1 { 
+		width: 100%;
+		margin-left: 0;
+	}
+
+	header h1 { 
+		margin-right: 0;
+		width: 100%;
+	}
+	.tophead1  {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.botsect .justdoit{ 
+		display: flex;
+		flex-direction: column;
+	}
+
+	.botsect img { 
+		width: 100%;
+	}
+
+	
+	.botsect .s2{ 
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.s2 div{ 
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
